@@ -23,6 +23,4 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
 RUN npm install -g phantomjs
 
 ADD app /app
-
-RUN cd app \
-RUN npm install nightmare
+RUN cd app \ && npm install nightmare
