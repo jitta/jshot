@@ -1,0 +1,28 @@
+{
+  "name": "jshot",
+  "version": "0.0.1",
+  "description": "Universal screen capture via phantom+docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jitta/jshot.git"
+  },
+  "keywords": [
+    "phamtomjs",
+    "screenshot",
+    "docker"
+  ],
+  "author": "Jitta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jitta/jshot/issues"
+  },
+  "homepage": "https://github.com/jitta/jshot",
+  "dependencies": {
+    "nightmare": "^1.8.2",
+    "phantomjs": "1.9.17"
+  }
+}
