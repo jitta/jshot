@@ -21,5 +21,5 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
   && npm cache clear
 
 ADD app /app
-
+ADD package.json /package.json
 RUN npm install
