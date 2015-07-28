@@ -22,4 +22,6 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
 
 ADD app /app
 ADD package.json /package.json
+
+RUN npm install -g phantomjs
 RUN npm install
