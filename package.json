@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jitta/jshot",
   "dependencies": {
+    "minimist": "^1.1.2",
     "nightmare": "^1.8.2"
   }
 }
