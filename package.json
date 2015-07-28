@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/jitta/jshot",
   "dependencies": {
-    "nightmare": "^1.8.2",
-    "phantomjs": "1.9.17"
+    "nightmare": "^1.8.2"
   }
 }
