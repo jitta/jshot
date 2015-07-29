@@ -17,7 +17,7 @@ new Nightmare()
   .wait(500)
   .scrollTo(2000, 0)
   .wait(2000)
-  .scrollTo 0, 0
+  .scrollTo(0, 0)
   .screenshot(filename)
   .run(function (err, nightmare) {
     fs.readFile(filename, function (err, data) {
