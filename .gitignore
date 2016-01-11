@@ -2,3 +2,5 @@
 node_modules
 npm-debug.log
 app/screenshots
+test/compare
+test/generate

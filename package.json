@@ -1,10 +1,10 @@
 {
   "name": "jshot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Universal screen capture via phantom+docker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/generate.js && mocha test/compare.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,10 @@
   "homepage": "https://github.com/jitta/jshot",
   "dependencies": {
     "minimist": "^1.1.2",
-    "nightmare": "^1.8.2"
+    "nightmare": "^1.8.2",
+    "chai": "^3.4.1",
+    "eslint": "^1.9.0",
+    "express": "^4.13.3",
+    "resemble": "^1.2.1"
   }
 }
