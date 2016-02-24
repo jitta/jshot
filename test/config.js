@@ -6,7 +6,7 @@ module.exports = {
   path: __dirname, //use it like this to generate screenshots inside the same directory as test files.
   generate_path: '/generate',
   compare_path: '/compare',
-  threshold: 0.1, //how much you accept for difference.
+  threshold: 0.0, //how much you accept for difference.
 
   /*
     These base url are used for the docker process to request your app!
